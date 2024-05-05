@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ResponsiveWebApplicationRazor_Pages</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Icons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AuthAccess">
+      <HintPath>..\..\..\Authentication System\AuthAPI\AuthAPI\bin\Debug\net8.0\AuthAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvLogger">
+      <HintPath>..\..\..\Authentication System\AuthAPI\AuthAPI\bin\Debug\net8.0\CsvLogger.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
